@@ -2,6 +2,7 @@ package codeqr.unmsm.com.codeqr_fisi;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,8 +18,10 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         scan_btn = (Button) findViewById(R.id.scan_btn);
         final Activity activity = this;
         scan_btn.setOnClickListener(new View.OnClickListener() {
