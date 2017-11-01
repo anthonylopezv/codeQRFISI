@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">codeQR-FISI</string>
+    <string name="app_name">FISI</string>
+
+
+    ///ACTIVITY MAIN
+    <string name="act_main_text">Hola! ve al libro y
+ escanea el codigo QR </string>
 </resources>
