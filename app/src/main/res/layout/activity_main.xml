@@ -40,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:layout_gravity="center"
-            android:background="#1A237E"
+            android:background="@color/colorPrimary"
             android:gravity="center"
             android:text="Scanear Libro"
             android:textAllCaps="false"
