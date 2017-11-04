@@ -7,16 +7,6 @@
     tools:context="codeqr.unmsm.com.codeqr_fisi.MainActivity">
 
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginBottom="20dp"
-        android:paddingTop="20dp"
-        android:src="@drawable/fisilogo" />
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
